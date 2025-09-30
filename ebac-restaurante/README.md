@@ -24,6 +24,18 @@ Este repositório contém um projeto sobre um banco de dados de um restaurante f
 
 ---
 
+## 📊 Análise e Visualização de Resultados (BI)
+O projeto demonstra a capacidade de ir além das consultas, extraindo dados do banco para alimentar análises de BI e relatórios de negócio.
+
+Arquivo/Pasta	Descrição
+relatorios/	Pasta que contém scripts SQL voltados para extração de dados brutos e relatórios de negócio.
+relatorios/relatorio_clientes_total_gasto.sql	Script que calcula o total gasto por cliente (clientes mais valiosos) e o exporta para um arquivo CSV. Simula a entrega de dados limpos para a área de Análise.
+outputs/	Pasta que armazena os artefatos de BI gerados a partir da extração SQL.
+outputs/relatorio_clientes_total_gasto.csv	Arquivo CSV (saída do SQL) contendo o dataset pronto para visualização.
+outputs/grafico_total_gasto_por_cliente.png	Visualização (Gráfico) que mostra a distribuição da receita, completando o ciclo de análise e comunicação de resultados.
+
+---
+
 ## ⚖️ Licença / Disclaimer
 
 Todo o conteúdo deste repositório foi desenvolvido para fins educacionais e de portfólio pessoal. Você é livre para usar, modificar e compartilhar os arquivos, desde que respeite os créditos ao autor original.
