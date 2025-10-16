@@ -13,6 +13,22 @@ Este repositório contém um projeto sobre um banco de dados de um restaurante f
 * Consultas SQL em múltiplas tabelas (JOINs)
 * SQL: Consultas avançadas
 
+  ---
+
+  ## 📁 Guia de Navegação / Estrutura do Repositório
+
+Para facilitar a exploração e auditoria do projeto, a estrutura de pastas foi organizada da seguinte forma:
+
+| Pasta/Arquivo | Propósito e Habilidades Demonstradas |
+| :--- | :--- |
+| `base_projeto/` | **Setup do Banco de Dados:** Contém o script SQL principal (`base_projeto_ebac_restaurante.sql`) para criar todas as tabelas e carregar os dados iniciais do projeto (DDL/DML). |
+| `scripts_do_projeto_ebac/` | **Soluções Modulares SQL:** Abriga os scripts de exercícios do curso, demonstrando habilidades em Agregação, Filtros, Joins e Consultas Avançadas. |
+| `regras-de-negocio/` | **Análises de Negócio (BI):** Scripts focados em extrair insights gerenciais, como cálculo de **Ticket Médio**, identificação de Clientes VIP e relatórios de desempenho. |
+| `outputs/` | **Artefatos de BI:** Armazena os resultados finais das análises, como arquivos CSV exportados e visualizações (gráficos/dashboards). |
+| `relatos/` | Documentação, notas de análise ou o passo a passo do projeto.
+
+---
+
 ### Exemplos de exercícios realizados
 * Inserção de registros em tabelas: funcionarios, clientes, produtos, info_produtos, pedidos -
 * Atualização de dados específicos com UPDATE:
