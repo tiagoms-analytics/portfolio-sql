@@ -15,7 +15,7 @@ Este repositório contém um projeto sobre um banco de dados de um restaurante f
 
   ---
 
-  ## 📁 Guia de Navegação / Estrutura do Repositório
+## 📁 Guia de Navegação / Estrutura do Repositório
 
 Para facilitar a exploração e auditoria do projeto, a estrutura de pastas foi organizada da seguinte forma:
 
@@ -23,9 +23,8 @@ Para facilitar a exploração e auditoria do projeto, a estrutura de pastas foi 
 | :--- | :--- |
 | `base_projeto/` | **Setup do Banco de Dados:** Contém o script SQL principal (`base_projeto_ebac_restaurante.sql`) para criar todas as tabelas e carregar os dados iniciais do projeto (DDL/DML). |
 | `scripts_do_projeto_ebac/` | **Soluções Modulares SQL:** Abriga os scripts de exercícios do curso, demonstrando habilidades em Agregação, Filtros, Joins e Consultas Avançadas. |
-| `regras-de-negocio/` | **Análises de Negócio (BI):** Scripts focados em extrair insights gerenciais, como cálculo de **Ticket Médio**, identificação de Clientes VIP e relatórios de desempenho. |
-| `outputs/` | **Artefatos de BI:** Armazena os resultados finais das análises, como arquivos CSV exportados e visualizações (gráficos/dashboards). |
-| `relatos/` | Documentação, notas de análise ou o passo a passo do projeto.
+| `relatorios/` | **Extração para Relatórios:** Contém scripts SQL voltados para a extração final de dados limpos para alimentar artefatos de BI, como o `relatorio_clientes_total_gasto.sql`. |
+| `outputs/` | **Artefatos de Entrega:** Armazena os resultados finais das análises, como arquivos **CSV exportados** (o dataset final) e **visualizações** (gráficos PNG) geradas a partir da extração SQL. |
 
 ---
 
