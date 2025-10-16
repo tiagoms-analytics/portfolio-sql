@@ -1,38 +1,49 @@
-# 🗄️ Projetos SQL — EBAC Restaurante
+# 🛍️ Regras de Negócio e Análise SQL - E-commerce
 
-Este repositório contém um projeto sobre um banco de dados de um restaurante feito no curso EBAC para a prática e portfólio na área de Análise de Dados.
+Este diretório contém uma série de exercícios focados na aplicação de **Regras de Negócio** e na extração de indicadores gerenciais (KPIs) usando SQL.
+
+O objetivo é transformar dados brutos de E-commerce (contidos na pasta `base_tabelas/`) em informações acionáveis para a tomada de decisão.
 
 ---
 
-## 📚 Temas abordados 
+## 📚 Temas e Habilidades Abordadas
 
-* SQL: Linguagem de Manipulação de Dados
-* SQL: Linguagem de Consulta de Dados
-* SQL: Filtros e Condicionais
-* SQL: Agregações
+* SQL: Linguagem de Manipulação de Dados (DML)
+* SQL: Linguagem de Consulta de Dados (SELECT)
+* SQL: Filtros e Condicionais (WHERE, HAVING, CASE)
+* SQL: Agregações (SUM, AVG, COUNT, GROUP BY)
 * Consultas SQL em múltiplas tabelas (JOINs)
-* SQL: Consultas avançadas
-
-### Exemplos de exercícios realizados
-* Inserção de registros em tabelas: funcionarios, clientes, produtos, info_produtos, pedidos -
-* Atualização de dados específicos com UPDATE:
-* Alteração do cargo e salário de um funcionário
-* Atualização do status de pedidos com data anterior a '2024-07-06'
-* Consultas com filtros, agregações e condições
-*  Consultas envolvendo múltiplas tabelas
-* Consultas avançadas
 
 ---
 
-## 📊 Análise e Visualização de Resultados (BI)
-O projeto demonstra a capacidade de ir além das consultas, extraindo dados do banco para alimentar análises de BI e relatórios de negócio.
+## 💾 Fonte de Dados
 
-Arquivo/Pasta	Descrição
-relatorios/	Pasta que contém scripts SQL voltados para extração de dados brutos e relatórios de negócio.
-relatorios/relatorio_clientes_total_gasto.sql	Script que calcula o total gasto por cliente (clientes mais valiosos) e o exporta para um arquivo CSV. Simula a entrega de dados limpos para a área de Análise.
-outputs/	Pasta que armazena os artefatos de BI gerados a partir da extração SQL.
-outputs/relatorio_clientes_total_gasto.csv	Arquivo CSV (saída do SQL) contendo o dataset pronto para visualização.
-outputs/grafico_total_gasto_por_cliente.png	Visualização (Gráfico) que mostra a distribuição da receita, completando o ciclo de análise e comunicação de resultados.
+Os scripts aqui presentes utilizam o modelo de dados de E-commerce (clientes, produtos, vendas, itens\_venda) contido na pasta **`../base_tabelas/`** (no nível superior do repositório).
+
+---
+
+## 📁 Guia de Navegação / Estrutura do Repositório
+
+Para facilitar a exploração e auditoria do projeto, a estrutura de pastas foi organizada da seguinte forma:
+
+| Pasta/Arquivo | Propósito e Habilidades Demonstradas |
+| :--- | :--- |
+| `../base_tabelas/` | **Base de Dados (Source Data):** Contém o script SQL principal (`tabela_ecommerce.sql`) para o setup do banco de dados utilizado. |
+| **`regras-de-negocio/`** | **Análises de Negócio (KPIs):** Contém todos os exercícios de análise, demonstrando habilidades em Agregação, Filtros, Joins e Geração de KPIs. |
+| `relatorios/` | **Extração para Relatórios:** Contém scripts SQL voltados para a extração final de dados limpos para alimentar artefatos de BI. |
+| `outputs/` | **Artefatos de Entrega:** Armazena os resultados finais das análises, como arquivos **CSV exportados** e **visualizações** (gráficos PNG). |
+
+---
+
+## ✨ Exemplos de Análises de Negócio Realizadas
+
+Esta pasta demonstra a capacidade de responder a perguntas de negócio complexas:
+
+* **Identificação de Clientes VIP:** Listagem de clientes com alta frequência e alto gasto.
+* **Métricas Gerenciais (KPIs):**
+    * Cálculo de **Ticket Médio** por Cliente e por Cidade.
+    * Classificação do **Valor de Pedido** (VIP, Normal, Básico).
+    * Análise de **Desempenho de Vendas** (Receita por Categoria, Top Produtos, Vendedores Baixo Desempenho).
 
 ---
 
@@ -40,6 +51,8 @@ outputs/grafico_total_gasto_por_cliente.png	Visualização (Gráfico) que mostra
 
 Todo o conteúdo deste repositório foi desenvolvido para fins educacionais e de portfólio pessoal. Você é livre para usar, modificar e compartilhar os arquivos, desde que respeite os créditos ao autor original.
 
- ### 🤝 Conecte-se comigo no LinkedIn
- 
- [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge\&logo=linkedin\&logoColor=white)](https://www.linkedin.com/in/tiago-magalhães-santos-0b6ab0b6/)
+---
+
+## 🤝 Conecte-se
+
+[Tiago Magalhães Santos - LinkedIn](https://www.linkedin.com/in/tiago-magalh%C3%A3es-santos-0b6ab0b6/)
