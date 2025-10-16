@@ -46,6 +46,24 @@ Esta pasta demonstra a capacidade de responder a perguntas de negócio complexas
     * Análise de **Desempenho de Vendas** (Receita por Categoria, Top Produtos, Vendedores Baixo Desempenho).
 
 ---
+## 📊 Análise e Visualização de Resultados (BI)
+
+O projeto demonstra a capacidade de ir além das consultas, extraindo dados do banco para análises alimentares de **Business Intelligence (BI)** e relatórios de negócio.
+
+| Arquivo/Pasta | Descrição |
+| :--- | :--- |
+| **`relatorios/`** | Pasta que contém *scripts* SQL específicos para a extração de dados brutos e relatórios de negócio. |
+| **`relatorios/top5_clientes.sql`** | Script que calcula o gasto total por cliente (identificando os clientes mais importantes) e simula a entrega de dados limpos para a área de Análise. |
+| **`relatorios/receita_por_categoria.sql`** | Script que calcula a receita total por categoria, essencial para análises de desempenho de vendas. |
+| **`relatorios/produto_mais_vendido_por_cidade.sql`** | Script que identifica o produto mais vendido por cidade, oferecendo *insights* regionais. |
+| **`outputs/`** | Pasta que armazena os artefatos de BI gerados a partir da extração via SQL. |
+| **`outputs/planilha_clientes_top.csv`** | Arquivo CSV (saído da *query* `top5_clientes.sql`) contendo o conjunto de dados pronto para visualização. |
+| **`outputs/clientes_top_5.png`** | Visualização (Gráfico) que mostra o *ranking* de gasto dos clientes mais importantes, completando o ciclo de análise e comunicação de resultados. |
+| **`outputs/receita_por_categoria.png`** | Visualização (Gráfico) que mostra o desempenho da receita por categoria. |
+| **`outputs/planilha_produto_mais_vendido_por_cidade`** | Arquivo CSV (saído da *query* de produto mais vendido por cidade) contendo o conjunto de dados pronto para visualização. |
+| **`outputs/produtos_mais_vendidos_por_cidade`** | Visualização (Gráfico) que mostra o *ranking* de produtos vendidos por cidade, completando a análise regional. |
+
+---
 
 ## ⚖️ Licença / Disclaimer
 
